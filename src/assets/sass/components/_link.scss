@@ -1,0 +1,8 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $link-col;
+  &:hover {
+    color: $link-hover-col;
+  }
+}

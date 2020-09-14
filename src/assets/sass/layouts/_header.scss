@@ -1,0 +1,16 @@
+.header {
+  @include flex-center;
+  height: 100vh;
+  margin: -10rem -3rem;
+  // background-image: linear-gradient(
+  //     to right bottom,
+  //     $header-overlay-col-light,
+  //     $header-overlay-col-dark
+  //   ),
+  //   url('../../images/header-image.jpg');
+  background-color: green;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}

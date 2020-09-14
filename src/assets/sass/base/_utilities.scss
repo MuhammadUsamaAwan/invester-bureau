@@ -1,0 +1,32 @@
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 2rem;
+}
+  
+.mb-1 {
+    margin-bottom: 1rem;
+}
+  
+.mb-2 {
+    margin-bottom: 2rem;
+}
+  
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+  
+.flex-center {
+    @include flex-center;
+}
+  
+.text-center {
+    text-align: center;
+}
+  

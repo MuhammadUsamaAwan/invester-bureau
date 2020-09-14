@@ -1,0 +1,43 @@
+.signup,
+.login,
+.superAdminSignup,
+.adminSignup {
+  text-align: center;
+  &__heading {
+    font-size: 4rem;
+    color: $form-heading-col;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+}
+
+.form {
+  @include flex-center;
+  flex-direction: column;
+  &__group {
+    border-bottom: 1px solid black;
+  }
+  &__group,
+  &__submit {
+    margin-bottom: 1rem;
+  }
+  &__input,
+  &__submit {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+  }
+  &__input {
+    padding: 1rem;
+    width: 30rem;
+  }
+  &__submit {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    color: $button-primary-col;
+    background-color: $button-primary-bg;
+    border-radius: 50rem;
+  }
+}
